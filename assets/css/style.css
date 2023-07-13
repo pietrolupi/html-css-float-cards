@@ -22,6 +22,15 @@ img {
   max-height: 100%;
 }
 
+.clearfix::after{
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.float{
+  float: left;
+}
 /* HEADER */
 header h1{
   text-align: center;
@@ -44,30 +53,22 @@ header h1{
 /* section2 */
 
 .general-container {
-  height: 500px;
-  background-color: blue;
+  
   margin-top: 43px;
-  color: white;
+  
 }
 
-.container {
+.container{
   height: 100px;
   width: 30%;
   background-color: black;
-}
+  color: white;
+} 
 
 .container img {
-  float: left;
-  padding-right: 20px;
+
 }
 
-.info-member h3 {
-  padding: 10px 0;
-}
-.info-member p {
-  padding-bottom: 7px;
-}
-.info-member a {
-  text-decoration: none;
-  color: #0490de;
+.container:nth-child(3n + 2){
+  margin: 0 20px;
 }
