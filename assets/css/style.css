@@ -60,15 +60,25 @@ header h1{
 
 .container{
   height: 100px;
-  width: 30%;
+  width: calc( (100% - 70px) / 3 );
   background-color: black;
   color: white;
+  margin-bottom: 50px;
 } 
 
-.container img {
-
-}
-
 .container:nth-child(3n + 2){
-  margin: 0 20px;
+  margin: 0 35px;
+}
+.container img{
+  padding-right: 20px;
+}
+.container h3{
+  padding: 10px 0 7px 0;
+}
+.container p {
+  padding-bottom: 6px;
+}
+.container a {
+  text-decoration: none;
+  color: #038bc9;
 }
