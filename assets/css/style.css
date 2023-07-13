@@ -9,4 +9,65 @@
 
 body {
   font-family: 'Fredoka', sans-serif;
+  
+}
+
+main{
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+  height: 1400px;
+}
+img {
+  max-height: 100%;
+}
+
+/* HEADER */
+header h1{
+  text-align: center;
+  color: #e53176;
+  padding: 33px 0;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+/* MAIN */
+
+/* section1 */
+
+ p:first-child{
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 15px;
+}
+
+/* section2 */
+
+.general-container {
+  height: 500px;
+  background-color: blue;
+  margin-top: 43px;
+  color: white;
+}
+
+.container {
+  height: 100px;
+  width: 30%;
+  background-color: black;
+}
+
+.container img {
+  float: left;
+  padding-right: 20px;
+}
+
+.info-member h3 {
+  padding: 10px 0;
+}
+.info-member p {
+  padding-bottom: 7px;
+}
+.info-member a {
+  text-decoration: none;
+  color: #0490de;
 }
